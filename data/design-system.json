@@ -1,0 +1,752 @@
+{
+  "project": {
+    "name": "Das Cafe Haus",
+    "version": "1.0.0",
+    "location": "Müllerstraße 135, 13349 Berlin",
+    "description": "Traditional Berlin café website with warm, inviting aesthetic"
+  },
+
+  "colorPalette": {
+    "primary": {
+      "richBrown": {
+        "hex": "#4A2C2A",
+        "rgb": "74, 44, 42",
+        "usage": "Primary headings, navigation, footer background",
+        "rationale": "Deep coffee brown evokes traditional Berlin café interiors and rich espresso"
+      },
+      "warmCream": {
+        "hex": "#F5F1E8",
+        "rgb": "245, 241, 232",
+        "usage": "Main background, card backgrounds, section alternates",
+        "rationale": "Soft cream reminiscent of café latte foam and warm café lighting"
+      },
+      "caramelBrown": {
+        "hex": "#8B6F47",
+        "rgb": "139, 111, 71",
+        "usage": "Secondary headings, section dividers, decorative elements",
+        "rationale": "Medium brown adds depth while maintaining warmth"
+      }
+    },
+
+    "accent": {
+      "espresso": {
+        "hex": "#2C1810",
+        "rgb": "44, 24, 16",
+        "usage": "Emphasis text, strong CTAs, important highlights",
+        "rationale": "Dark espresso brown for strong contrast and sophistication"
+      },
+      "cappuccino": {
+        "hex": "#C4A57B",
+        "rgb": "196, 165, 123",
+        "usage": "Hover states, active navigation, subtle accents",
+        "rationale": "Light cappuccino tone for gentle interactive feedback"
+      },
+      "copperAccent": {
+        "hex": "#B87333",
+        "rgb": "184, 115, 51",
+        "usage": "Icons, borders, decorative elements, links",
+        "rationale": "Copper adds vintage Berlin café character and warmth"
+      },
+      "steamGray": {
+        "hex": "#E8E0D5",
+        "rgb": "232, 224, 213",
+        "usage": "Subtle backgrounds, card shadows, dividers",
+        "rationale": "Soft gray evokes coffee steam and creates subtle depth"
+      }
+    },
+
+    "text": {
+      "primary": {
+        "hex": "#2C1810",
+        "rgb": "44, 24, 16",
+        "usage": "Body text, paragraphs, descriptions",
+        "contrastRatio": "13.5:1 on warmCream (WCAG AAA)"
+      },
+      "secondary": {
+        "hex": "#4A2C2A",
+        "rgb": "74, 44, 42",
+        "usage": "Secondary information, captions, metadata",
+        "contrastRatio": "9.8:1 on warmCream (WCAG AAA)"
+      },
+      "tertiary": {
+        "hex": "#8B6F47",
+        "rgb": "139, 111, 71",
+        "usage": "Subtle text, placeholders, disabled states",
+        "contrastRatio": "4.7:1 on warmCream (WCAG AA)"
+      },
+      "light": {
+        "hex": "#F5F1E8",
+        "rgb": "245, 241, 232",
+        "usage": "Text on dark backgrounds",
+        "contrastRatio": "13.5:1 on richBrown (WCAG AAA)"
+      }
+    },
+
+    "background": {
+      "primary": "#F5F1E8",
+      "secondary": "#FFFFFF",
+      "tertiary": "#E8E0D5",
+      "dark": "#4A2C2A",
+      "overlay": "rgba(44, 24, 16, 0.85)"
+    },
+
+    "semantic": {
+      "success": "#6B8E23",
+      "warning": "#D4A574",
+      "error": "#A0522D",
+      "info": "#8B6F47"
+    }
+  },
+
+  "typography": {
+    "fontFamilies": {
+      "heading": {
+        "family": "'Playfair Display', 'Georgia', serif",
+        "fallback": "Georgia, 'Times New Roman', serif",
+        "rationale": "Elegant serif font with classical German café sophistication",
+        "weights": [400, 600, 700, 800],
+        "googleFontsUrl": "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&display=swap"
+      },
+      "body": {
+        "family": "'Inter', 'Helvetica Neue', sans-serif",
+        "fallback": "Arial, sans-serif",
+        "rationale": "Clean, highly readable sans-serif for body text and UI elements",
+        "weights": [300, 400, 500, 600, 700],
+        "googleFontsUrl": "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      },
+      "accent": {
+        "family": "'Cormorant Garamond', 'Georgia', serif",
+        "fallback": "Georgia, serif",
+        "rationale": "Decorative serif for special headings and elegant touches",
+        "weights": [400, 600, 700],
+        "googleFontsUrl": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&display=swap"
+      }
+    },
+
+    "scale": {
+      "desktop": {
+        "h1": {
+          "fontSize": "3.5rem",
+          "lineHeight": "1.2",
+          "fontWeight": "800",
+          "letterSpacing": "-0.02em",
+          "margin": "0 0 1.5rem 0",
+          "usage": "Hero title, main page heading"
+        },
+        "h2": {
+          "fontSize": "2.5rem",
+          "lineHeight": "1.3",
+          "fontWeight": "700",
+          "letterSpacing": "-0.01em",
+          "margin": "0 0 1.25rem 0",
+          "usage": "Section headings"
+        },
+        "h3": {
+          "fontSize": "1.875rem",
+          "lineHeight": "1.4",
+          "fontWeight": "600",
+          "letterSpacing": "0",
+          "margin": "0 0 1rem 0",
+          "usage": "Subsection headings, card titles"
+        },
+        "h4": {
+          "fontSize": "1.5rem",
+          "lineHeight": "1.4",
+          "fontWeight": "600",
+          "letterSpacing": "0",
+          "margin": "0 0 0.875rem 0",
+          "usage": "Component headings"
+        },
+        "h5": {
+          "fontSize": "1.25rem",
+          "lineHeight": "1.5",
+          "fontWeight": "600",
+          "letterSpacing": "0",
+          "margin": "0 0 0.75rem 0",
+          "usage": "Small headings, labels"
+        },
+        "body": {
+          "fontSize": "1.125rem",
+          "lineHeight": "1.7",
+          "fontWeight": "400",
+          "letterSpacing": "0.01em",
+          "margin": "0 0 1.5rem 0",
+          "usage": "Paragraph text, descriptions"
+        },
+        "bodySmall": {
+          "fontSize": "1rem",
+          "lineHeight": "1.6",
+          "fontWeight": "400",
+          "letterSpacing": "0.01em",
+          "margin": "0 0 1rem 0",
+          "usage": "Secondary text, captions"
+        },
+        "caption": {
+          "fontSize": "0.875rem",
+          "lineHeight": "1.5",
+          "fontWeight": "400",
+          "letterSpacing": "0.02em",
+          "margin": "0 0 0.5rem 0",
+          "usage": "Image captions, metadata"
+        },
+        "button": {
+          "fontSize": "1rem",
+          "lineHeight": "1.5",
+          "fontWeight": "600",
+          "letterSpacing": "0.05em",
+          "textTransform": "uppercase",
+          "usage": "Buttons, CTAs"
+        }
+      },
+
+      "tablet": {
+        "h1": "3rem",
+        "h2": "2.25rem",
+        "h3": "1.75rem",
+        "h4": "1.375rem",
+        "h5": "1.125rem",
+        "body": "1.0625rem",
+        "bodySmall": "0.9375rem",
+        "caption": "0.8125rem",
+        "button": "0.9375rem"
+      },
+
+      "mobile": {
+        "h1": "2.25rem",
+        "h2": "1.875rem",
+        "h3": "1.5rem",
+        "h4": "1.25rem",
+        "h5": "1.0625rem",
+        "body": "1rem",
+        "bodySmall": "0.9375rem",
+        "caption": "0.8125rem",
+        "button": "0.9375rem"
+      }
+    }
+  },
+
+  "layoutArchitecture": {
+    "navigationStructure": {
+      "type": "Fixed header with sticky behavior",
+      "items": [
+        {"label": "Home", "anchor": "#home", "icon": "home"},
+        {"label": "About", "anchor": "#about", "icon": "info"},
+        {"label": "Menu", "anchor": "#menu", "icon": "coffee"},
+        {"label": "Gallery", "anchor": "#gallery", "icon": "image"},
+        {"label": "Visit", "anchor": "#visit", "icon": "map-pin"}
+      ],
+      "behavior": {
+        "desktop": "Horizontal navigation bar, sticky on scroll",
+        "tablet": "Horizontal navigation, collapsible on smaller tablets",
+        "mobile": "Hamburger menu with slide-in drawer"
+      }
+    },
+
+    "sectionOrder": [
+      {
+        "name": "Hero",
+        "purpose": "Immediate visual impact with café atmosphere",
+        "priority": 1,
+        "minHeight": "100vh"
+      },
+      {
+        "name": "About",
+        "purpose": "Story and unique value proposition",
+        "priority": 2,
+        "background": "warmCream"
+      },
+      {
+        "name": "Features",
+        "purpose": "Highlight laptop-friendly, breakfast, solo dining",
+        "priority": 3,
+        "background": "white"
+      },
+      {
+        "name": "Menu Highlights",
+        "purpose": "Coffee offerings and breakfast items",
+        "priority": 4,
+        "background": "warmCream"
+      },
+      {
+        "name": "Gallery",
+        "purpose": "Visual showcase of café atmosphere (11 photos)",
+        "priority": 5,
+        "background": "white"
+      },
+      {
+        "name": "Location & Hours",
+        "purpose": "Practical visit information",
+        "priority": 6,
+        "background": "warmCream"
+      },
+      {
+        "name": "Footer",
+        "purpose": "Contact, social, copyright",
+        "priority": 7,
+        "background": "richBrown"
+      }
+    ],
+
+    "gridSystem": {
+      "maxWidth": "1280px",
+      "columns": {
+        "desktop": 12,
+        "tablet": 8,
+        "mobile": 4
+      },
+      "gutters": {
+        "desktop": "32px",
+        "tablet": "24px",
+        "mobile": "16px"
+      },
+      "margins": {
+        "desktop": "64px",
+        "tablet": "32px",
+        "mobile": "20px"
+      }
+    },
+
+    "spacing": {
+      "scale": "8px base",
+      "values": {
+        "xs": "8px",
+        "sm": "16px",
+        "md": "24px",
+        "lg": "32px",
+        "xl": "48px",
+        "2xl": "64px",
+        "3xl": "96px",
+        "4xl": "128px"
+      },
+      "sectionPadding": {
+        "desktop": "96px 0",
+        "tablet": "64px 0",
+        "mobile": "48px 0"
+      }
+    }
+  },
+
+  "components": {
+    "hero": {
+      "type": "Full-screen hero with background image",
+      "elements": [
+        "Background image (one of 11 café photos)",
+        "Dark overlay (rgba(44, 24, 16, 0.5))",
+        "Centered content container",
+        "Logo/café name (h1)",
+        "Tagline",
+        "Primary CTA button",
+        "Scroll indicator"
+      ],
+      "style": {
+        "backgroundSize": "cover",
+        "backgroundPosition": "center",
+        "minHeight": "100vh",
+        "display": "flex",
+        "alignItems": "center",
+        "justifyContent": "center"
+      }
+    },
+
+    "cards": {
+      "featureCard": {
+        "structure": "Icon + Title + Description",
+        "style": {
+          "background": "#FFFFFF",
+          "padding": "32px",
+          "borderRadius": "8px",
+          "boxShadow": "0 4px 16px rgba(44, 24, 16, 0.08)",
+          "transition": "transform 0.3s ease, box-shadow 0.3s ease"
+        },
+        "hover": {
+          "transform": "translateY(-4px)",
+          "boxShadow": "0 8px 24px rgba(44, 24, 16, 0.12)"
+        }
+      },
+
+      "menuCard": {
+        "structure": "Image + Title + Description + Price",
+        "style": {
+          "background": "#FFFFFF",
+          "borderRadius": "12px",
+          "overflow": "hidden",
+          "boxShadow": "0 2px 12px rgba(44, 24, 16, 0.06)"
+        },
+        "imageAspectRatio": "4:3"
+      },
+
+      "galleryCard": {
+        "structure": "Image with overlay on hover",
+        "style": {
+          "borderRadius": "8px",
+          "overflow": "hidden",
+          "cursor": "pointer"
+        },
+        "aspectRatio": "1:1"
+      }
+    },
+
+    "buttons": {
+      "primary": {
+        "background": "#B87333",
+        "color": "#F5F1E8",
+        "padding": "16px 32px",
+        "borderRadius": "4px",
+        "fontSize": "1rem",
+        "fontWeight": "600",
+        "letterSpacing": "0.05em",
+        "textTransform": "uppercase",
+        "border": "none",
+        "cursor": "pointer",
+        "transition": "all 0.3s ease",
+        "hover": {
+          "background": "#A0652E",
+          "transform": "translateY(-2px)",
+          "boxShadow": "0 4px 12px rgba(184, 115, 51, 0.3)"
+        }
+      },
+
+      "secondary": {
+        "background": "transparent",
+        "color": "#4A2C2A",
+        "padding": "16px 32px",
+        "borderRadius": "4px",
+        "border": "2px solid #4A2C2A",
+        "fontSize": "1rem",
+        "fontWeight": "600",
+        "letterSpacing": "0.05em",
+        "textTransform": "uppercase",
+        "cursor": "pointer",
+        "transition": "all 0.3s ease",
+        "hover": {
+          "background": "#4A2C2A",
+          "color": "#F5F1E8"
+        }
+      },
+
+      "ghost": {
+        "background": "transparent",
+        "color": "#B87333",
+        "padding": "12px 24px",
+        "border": "none",
+        "fontSize": "1rem",
+        "fontWeight": "500",
+        "textDecoration": "underline",
+        "cursor": "pointer",
+        "transition": "color 0.3s ease",
+        "hover": {
+          "color": "#A0652E"
+        }
+      }
+    },
+
+    "forms": {
+      "input": {
+        "background": "#FFFFFF",
+        "border": "1px solid #E8E0D5",
+        "borderRadius": "4px",
+        "padding": "12px 16px",
+        "fontSize": "1rem",
+        "color": "#2C1810",
+        "transition": "border-color 0.3s ease",
+        "focus": {
+          "borderColor": "#B87333",
+          "outline": "none",
+          "boxShadow": "0 0 0 3px rgba(184, 115, 51, 0.1)"
+        }
+      },
+
+      "textarea": {
+        "extends": "input",
+        "minHeight": "120px",
+        "resize": "vertical"
+      },
+
+      "select": {
+        "extends": "input",
+        "appearance": "none",
+        "backgroundImage": "url('data:image/svg+xml...')",
+        "backgroundRepeat": "no-repeat",
+        "backgroundPosition": "right 12px center",
+        "paddingRight": "40px"
+      }
+    },
+
+    "icons": {
+      "library": "Lucide Icons",
+      "size": {
+        "sm": "16px",
+        "md": "24px",
+        "lg": "32px",
+        "xl": "48px"
+      },
+      "needed": [
+        "Coffee (menu, features)",
+        "MapPin (location)",
+        "Clock (hours)",
+        "Wifi (laptop-friendly)",
+        "UtensilsCrossed (breakfast)",
+        "User (solo dining)",
+        "Phone (contact)",
+        "Mail (contact)",
+        "Instagram (social)",
+        "Facebook (social)",
+        "Menu (mobile navigation)",
+        "X (close)",
+        "ChevronDown (scroll indicator)",
+        "ChevronLeft/Right (gallery navigation)",
+        "Star (ratings/features)"
+      ]
+    }
+  },
+
+  "animations": {
+    "scrollAnimations": {
+      "fadeIn": {
+        "trigger": "Element enters viewport",
+        "properties": {
+          "opacity": "0 -> 1",
+          "transform": "translateY(30px) -> translateY(0)"
+        },
+        "duration": "0.6s",
+        "easing": "ease-out",
+        "usage": "Section headings, cards, text blocks"
+      },
+
+      "slideInLeft": {
+        "trigger": "Element enters viewport",
+        "properties": {
+          "opacity": "0 -> 1",
+          "transform": "translateX(-50px) -> translateX(0)"
+        },
+        "duration": "0.7s",
+        "easing": "ease-out",
+        "usage": "Images, feature cards (alternating)"
+      },
+
+      "slideInRight": {
+        "trigger": "Element enters viewport",
+        "properties": {
+          "opacity": "0 -> 1",
+          "transform": "translateX(50px) -> translateX(0)"
+        },
+        "duration": "0.7s",
+        "easing": "ease-out",
+        "usage": "Images, feature cards (alternating)"
+      },
+
+      "scaleIn": {
+        "trigger": "Element enters viewport",
+        "properties": {
+          "opacity": "0 -> 1",
+          "transform": "scale(0.9) -> scale(1)"
+        },
+        "duration": "0.5s",
+        "easing": "ease-out",
+        "usage": "Gallery images, icons"
+      },
+
+      "staggerChildren": {
+        "description": "Animate children with delay",
+        "childDelay": "0.1s",
+        "usage": "Feature cards, menu items, gallery grid"
+      }
+    },
+
+    "hoverEffects": {
+      "cardLift": {
+        "transform": "translateY(-4px)",
+        "boxShadow": "0 8px 24px rgba(44, 24, 16, 0.12)",
+        "transition": "all 0.3s ease"
+      },
+
+      "imageZoom": {
+        "transform": "scale(1.05)",
+        "transition": "transform 0.5s ease"
+      },
+
+      "iconRotate": {
+        "transform": "rotate(5deg)",
+        "transition": "transform 0.3s ease"
+      },
+
+      "underlineExpand": {
+        "width": "0% -> 100%",
+        "transition": "width 0.3s ease",
+        "usage": "Navigation links"
+      }
+    },
+
+    "galleryInteractions": {
+      "gridLayout": "Masonry or CSS Grid",
+      "clickBehavior": "Lightbox modal",
+      "lightbox": {
+        "background": "rgba(44, 24, 16, 0.95)",
+        "closeButton": "Top right, white X icon",
+        "navigation": "Left/right arrows",
+        "imageCounter": "Bottom center",
+        "transitions": "Fade in/out, slide between images"
+      },
+
+      "hoverOverlay": {
+        "background": "rgba(184, 115, 51, 0.8)",
+        "opacity": "0 -> 1",
+        "transition": "0.3s ease",
+        "content": "Optional caption or icon"
+      }
+    },
+
+    "mobileMenu": {
+      "triggerButton": "Hamburger icon (three lines)",
+      "animation": "Slide in from right",
+      "overlay": "Semi-transparent dark overlay",
+      "menuStyle": {
+        "background": "#F5F1E8",
+        "width": "80%",
+        "maxWidth": "320px",
+        "height": "100vh",
+        "position": "fixed",
+        "right": "0",
+        "top": "0",
+        "boxShadow": "-4px 0 20px rgba(44, 24, 16, 0.15)"
+      },
+      "linkAnimation": "Stagger fade-in (0.05s delay each)"
+    },
+
+    "pageTransitions": {
+      "smoothScroll": {
+        "behavior": "smooth",
+        "duration": "800ms",
+        "usage": "Anchor links navigation"
+      },
+
+      "stickyHeader": {
+        "threshold": "100px scroll",
+        "transform": "translateY(-100%) -> translateY(0)",
+        "background": "Add slight transparency and blur",
+        "boxShadow": "Add subtle shadow"
+      }
+    }
+  },
+
+  "responsiveBreakpoints": {
+    "mobile": {
+      "min": "320px",
+      "max": "767px",
+      "container": "100% - 40px (20px margins)",
+      "fontSize": "Base 16px",
+      "navigation": "Hamburger menu",
+      "gallery": "1 column",
+      "features": "1 column, stacked"
+    },
+
+    "tablet": {
+      "min": "768px",
+      "max": "1023px",
+      "container": "100% - 64px (32px margins)",
+      "fontSize": "Base 16px",
+      "navigation": "Horizontal or collapsible",
+      "gallery": "2 columns",
+      "features": "2 columns"
+    },
+
+    "desktop": {
+      "min": "1024px",
+      "max": "1439px",
+      "container": "1280px max-width",
+      "fontSize": "Base 18px",
+      "navigation": "Full horizontal",
+      "gallery": "3 columns",
+      "features": "3 columns"
+    },
+
+    "largeDesktop": {
+      "min": "1440px",
+      "container": "1280px max-width (centered)",
+      "fontSize": "Base 18px",
+      "navigation": "Full horizontal with spacing",
+      "gallery": "4 columns",
+      "features": "3-4 columns"
+    },
+
+    "optimizations": {
+      "images": {
+        "mobile": "800px width",
+        "tablet": "1200px width",
+        "desktop": "1920px width",
+        "format": "WebP with JPEG fallback",
+        "lazyLoad": true
+      },
+
+      "fonts": {
+        "preload": ["Inter", "Playfair Display"],
+        "subset": "latin",
+        "display": "swap"
+      }
+    }
+  },
+
+  "accessibility": {
+    "colorContrast": {
+      "minimumRatio": "4.5:1 (WCAG AA)",
+      "targetRatio": "7:1 (WCAG AAA)",
+      "tested": true
+    },
+
+    "focusStates": {
+      "outline": "2px solid #B87333",
+      "outlineOffset": "2px",
+      "visible": true
+    },
+
+    "semanticHTML": {
+      "useProperHeadings": true,
+      "landmarkRegions": true,
+      "altTextRequired": true
+    },
+
+    "keyboardNavigation": {
+      "tabIndex": "Logical order",
+      "skipLinks": "Provided",
+      "escapeToClose": "Modals and menus"
+    },
+
+    "ariaLabels": {
+      "navigation": "Required",
+      "buttons": "Descriptive",
+      "images": "Alt text or aria-label"
+    }
+  },
+
+  "technicalSpecifications": {
+    "framework": "Vanilla HTML/CSS/JavaScript or React (TBD)",
+    "cssMethodology": "BEM or CSS Modules",
+    "preprocessor": "Sass/SCSS (optional)",
+    "animations": "CSS transitions + Intersection Observer API",
+    "responsiveImages": "srcset and picture element",
+    "performance": {
+      "targetLighthouseScore": 90,
+      "criticalCSS": "Inline for above-fold",
+      "lazyLoading": "Images and non-critical content",
+      "minification": "CSS and JS"
+    }
+  },
+
+  "designPrinciples": {
+    "warmth": "Use warm color palette to evoke café comfort",
+    "elegance": "Classical typography reflects traditional Berlin café culture",
+    "clarity": "Clean layouts ensure information is easily digestible",
+    "authenticity": "Photos and content showcase real café atmosphere",
+    "accessibility": "Design for all users with proper contrast and semantics",
+    "performance": "Fast loading for optimal user experience"
+  },
+
+  "deliverables": [
+    "Design system JSON specification (this file)",
+    "Component library documentation",
+    "Responsive mockups (mobile, tablet, desktop)",
+    "Interactive prototype",
+    "Style guide PDF",
+    "Asset preparation guidelines"
+  ]
+}

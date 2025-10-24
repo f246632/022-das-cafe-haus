@@ -1,0 +1,52 @@
+{
+  "source": "Multiple sources (Unilocal, Yelp)",
+  "google_rating": "Not available",
+  "unilocal_rating": "4.2/5",
+  "total_reviews": "6 (Unilocal)",
+  "yelp_reviews": "10-11 reviews",
+  "reviews": [
+    {
+      "author": "Katja M.",
+      "rating": 4,
+      "text": "Good and fresh breakfast selection with baguettes, rolls, fresh toppings, and salads at reasonable prices. Staff described as friendly.",
+      "date": "Not specified",
+      "source": "Unilocal"
+    },
+    {
+      "author": "MrsTin",
+      "rating": 5,
+      "text": "Wonderful cakes, delicious pastries and good ice cream. Ice cream at €0.80 per scoop is substantial in size. Recommends the covered apple cake with cream.",
+      "date": "Not specified",
+      "source": "Unilocal"
+    },
+    {
+      "author": "Wolfgang W.",
+      "rating": 5,
+      "text": "Turkish breakfast featuring rolls, ham, egg, goat cheese, and fried sucuk. Staff noted as very nice and friendly.",
+      "date": "Not specified",
+      "source": "Unilocal"
+    },
+    {
+      "author": "Basti9",
+      "rating": 5,
+      "text": "Praised strawberry and stracciatella ice cream quality at €0.80/scoop. Appreciates no upcharge for cups versus cones.",
+      "date": "Not specified",
+      "source": "Unilocal"
+    },
+    {
+      "author": "Atir S.",
+      "rating": 3,
+      "text": "Praised ice cream flavors, particularly chocolate and mango, though prefers eating from a cone.",
+      "date": "Not specified",
+      "source": "Unilocal"
+    },
+    {
+      "author": "Agnieszka S.",
+      "rating": 3,
+      "text": "The café offers breakfast from €1.95, sandwiches, and warm meals alongside ice cream and coffee.",
+      "date": "Not specified",
+      "source": "Unilocal"
+    }
+  ],
+  "notes": "Google Maps reviews were not accessible due to consent redirect. Reviews collected from Unilocal.net. Yelp shows 10-11 total reviews but content was not extractable."
+}

@@ -1,0 +1,80 @@
+{
+  "name": "Das Cafe Haus",
+  "address": "Müllerstraße 135, 13349 Berlin, Deutschland",
+  "neighborhood": "Wedding",
+  "phone": "+49 30 45025044",
+  "email": "",
+  "website": "",
+  "social_media": {
+    "facebook": "https://www.facebook.com/115464781873256/",
+    "instagram": "",
+    "tripadvisor": "",
+    "yelp_de": "https://www.yelp.de/biz/das-cafe-haus-berlin",
+    "yelp_com": "https://www.yelp.com/biz/das-cafe-haus-berlin"
+  },
+  "hours": {
+    "monday": "8:00 AM - 8:00 PM",
+    "tuesday": "8:00 AM - 8:00 PM",
+    "wednesday": "8:00 AM - 8:00 PM",
+    "thursday": "8:00 AM - 8:00 PM",
+    "friday": "8:00 AM - 8:00 PM",
+    "saturday": "8:00 AM - 9:00 PM",
+    "sunday": "8:00 AM - 9:00 PM",
+    "note": "Hours verified from Unilocal.net"
+  },
+  "services": {
+    "reservations": true,
+    "takeout": true,
+    "good_for_kids": true,
+    "good_for_groups": true
+  },
+  "menu_highlights": [
+    "Turkish breakfast (rolls, ham, egg, goat cheese, fried sucuk)",
+    "Fresh baguettes and rolls",
+    "Breakfast from €1.95",
+    "Fresh salads and toppings",
+    "Filled sandwiches",
+    "Warm dishes",
+    "Coffee service",
+    "Ice cream (€0.80 per scoop)",
+    "Homemade cakes and pastries",
+    "Covered apple cake with cream"
+  ],
+  "ice_cream_flavors": [
+    "Chocolate",
+    "Mango",
+    "Strawberry",
+    "Stracciatella"
+  ],
+  "specialties": [
+    "Turkish breakfast",
+    "Homemade cakes and pastries",
+    "Ice cream (generous portions at €0.80/scoop)",
+    "Fresh breakfast items",
+    "Covered apple cake with cream"
+  ],
+  "price_range": {
+    "breakfast": "from €1.95",
+    "ice_cream": "€0.80 per scoop",
+    "overall": "Budget-friendly, reasonable prices"
+  },
+  "ratings": {
+    "unilocal": "4.2/5 (6 reviews)",
+    "yelp": "10-11 reviews",
+    "facebook": "20 followers, 307 check-ins",
+    "google": "Not accessible"
+  },
+  "business_type": [
+    "Café",
+    "Ice cream shop",
+    "Breakfast & Brunch spot"
+  ],
+  "notable_features": [
+    "Friendly staff",
+    "Good quality coffee",
+    "Generous ice cream portions",
+    "No upcharge for cup vs cone",
+    "Fresh daily breakfast selections",
+    "Turkish breakfast options"
+  ]
+}
